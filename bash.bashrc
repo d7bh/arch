@@ -53,7 +53,6 @@ alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
 alias +='sudo '
-PS1='\[\e[1;34m\]\W\[\e[m\]\[\e[m\]\[\e[0;32m\]$(__git_ps1 " (%s)")\[\033[1;35m\]->'
 alias tmux='tmux -2'
 alias pidfind='ps aux | grep'
 if [ -z "$DISPLAY" ]; then
